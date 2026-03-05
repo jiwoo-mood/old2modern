@@ -3,7 +3,7 @@
 #캐시 경로는 서버 번호에 맞게 변경해주세요
 #r6, r7의 경우 /mnt/lustre/users/dongyun/ckpt/FLUX.1-Kontext-dev-12B
 #r8의 경우 /mnt/ssd1/users/jiwoo/FLUX.1-Kontext-dev-12B
-CACHE_DIR="/workspace/FLUX.1-Kontext-dev-12B"
+CACHE_DIR="/mnt/lustre/users/dongyun/ckpt/FLUX.1-Kontext-dev-12B"
 
 PROMPTS=(
     " ", #single prompt로 해도 되고,
@@ -15,7 +15,7 @@ NEGATIVE_PROMPT="upscaling, resize, crop, added objects, changed composition, ge
 
 INPUT_DIR="data_folder_root"
 OUTPUT_DIR="method1_yourname"
-GPU=2
+GPU=1
 
 mkdir -p "${OUTPUT_DIR}"
 
