@@ -1,0 +1,10 @@
+torch==2.2.0+cu121
+torchvision==0.17.0+cu121
+accelerate==1.12.0
+diffusers==0.35.2
+transformers==4.57.3
+huggingface-hub==0.36.0
+safetensors==0.7.0
+pillow==10.2.0
+sentencepiece==0.2.1
+numpy==1.26.0
